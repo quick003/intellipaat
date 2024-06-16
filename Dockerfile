@@ -11,5 +11,4 @@ RUN rm -f /var/www/html/index.html \
     && mv /var/www/html/neogym-html/* /var/www/html 
 
 EXPOSE 80
-
 CMD ["apache2ctl", "-D", "FOREGROUND"]
